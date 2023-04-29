@@ -8,7 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="w-full bg-grey-scale-200 text-center text-primary font-didact text-xs py-3 tracking-wider">
+  <div class="w-full bg-grey-scale-200 text-center text-primary font-didact text-xs py-3 tracking-wider font-bold">
     {{ props.message }}
   </div>
 </template>
